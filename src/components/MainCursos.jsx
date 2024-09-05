@@ -1,4 +1,4 @@
-import "../css/MainCursos.css"
+/*import "../css/MainCursos.css"
 import { useEffect } from "react";
 import {
     MDBCard,
@@ -141,4 +141,4 @@ const MainCursos = () => {
   )
 }
 
-export default MainCursos
+export default MainCursos*/

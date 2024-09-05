@@ -20,7 +20,7 @@ const MainHistoria = () => {
           <Col md={6} className="historia-content">
             <div className="historia-text" data-aos="fade-right">
               <h2 className='tituloHistoria'>Mi Historia</h2>
-              <span>
+              <span className='textoHistoria'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus doloribus quaerat placeat quam
                  repellendus dolor beatae at ex obcaecati dolores ipsam quo iure molestias, omnis cupiditate sit quisquam, molestiae ab?
               </span>

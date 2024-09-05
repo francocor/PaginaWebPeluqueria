@@ -47,9 +47,8 @@ const Header = () => {
               <Nav.Link onClick={scrollToHistoria}>Sobre mí</Nav.Link>
               <Nav.Link href="/MainServicios">Servicios</Nav.Link>
               <Nav.Link href="/MainProductos">Productos</Nav.Link>
-              <Nav.Link href="/MainCursos">Cursos</Nav.Link>
+              {/*<Nav.Link href="/MainCursos">Cursos</Nav.Link>*/}
               <Nav.Link href="/MainTurnos">Turnos</Nav.Link>
-              <Nav.Link href="/Login">Login</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

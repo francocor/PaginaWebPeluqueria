@@ -1,22 +1,23 @@
 body {
-  background-color: #f2c0bc; 
+  background-color: #f2c0bc;
 }
 
 .carrusel {
-  width: 50vw; 
-  height: 70vh; 
-  margin: 0 auto; 
-  overflow: hidden; 
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
   border: 5px solid white;
   border-radius: 5px;
+  width: auto; /* Permite que el tamaño del contenedor se ajuste al contenido */
+  max-width: 100%;
+  height: auto; /* Ajusta la altura al contenido */
 }
 
 .carrusel video {
-  width: auto; 
-  height: auto; 
-  object-fit: cover; 
+  width: 100%; /* El video ocupará todo el ancho del contenedor */
+  height: auto; /* Mantiene la proporción original del video */
+  object-fit: cover;
 }
 

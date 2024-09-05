@@ -1,4 +1,4 @@
-import Header from "../components/Header"
+/*import Header from "../components/Header"
 import MainCurso from "../components/MainCursos"
 import Footer from "../components/Footer"
 
@@ -12,4 +12,4 @@ const MainCursos = () => {
   )
 }
 
-export default MainCursos
+export default MainCursos*/

@@ -1,50 +1,86 @@
 .main-historia {
   padding: 20px 0;
-  font-family: Arial Black; 
   font-weight: bold; 
-  font-size: 30px; 
+  font-size: 2rem; /* Reduce el tamaño de fuente para mejor visualización en pantallas pequeñas */
   color: #f48f9f; 
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-  }
-  
-  .historia-content {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+.historia-content {
+  height: auto; /* Cambiado para permitir que el contenido se ajuste automáticamente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Agrega un margen inferior para separar las secciones en móviles */
+}
+
+.align-items-center {
+  font-family: "Kanit", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.tituloHistoria {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.5rem; /* Ajusta el tamaño del título para pantallas pequeñas */
+}
+
+.historia-text {
+  margin-bottom: 20px; /* Añade margen inferior para separar del contenido siguiente */
+  height: auto; /* Permite que el texto se ajuste al contenido */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem; /* Ajusta el tamaño de la fuente para mejor lectura en móviles */
+}
+
+.historia-img img {
+  max-width: 100%;
+  height: auto; /* Ajusta automáticamente la altura de la imagen según su proporción */
+  object-fit: cover;
+  border-radius: 10px; /* Añade bordes redondeados para una mejor estética */
+}
+
+.main-historia::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100px; /* Ajusta la altura según tus necesidades */
+  background-image: url('../assets/separador-img.jpg'); 
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .main-historia {
+    padding: 10px 0;
+    font-size: 1.5rem; /* Tamaño de fuente más pequeño en móviles */
   }
 
-  .align-items-center{
-    font-family: "Kanit", sans-serif;
-    font-weight: auto;
-    font-style: normal;
+  .tituloHistoria {
+    font-size: 2rem; /* Ajusta el tamaño del título en móviles */
   }
-  
-  .tituloHistoria{
-    text-align: center;
-  }
-  
+
   .historia-text {
-    margin-bottom: 0; /* Elimina el margen inferior */
-    height: 100%; /* Asegura que el texto ocupe el mismo alto que la imagen */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    font-size: 0.9rem; /* Ajusta el tamaño de la fuente para mejor legibilidad */
   }
-  
+
+  .historia-content {
+    flex-direction: column; /* Apila el contenido en una columna en pantallas pequeñas */
+    text-align: center; /* Centra el texto en pantallas pequeñas */
+  }
+
   .historia-img img {
     max-width: 100%;
-    height: 100%; /* Asegura que la imagen ocupe todo el alto disponible */
-    object-fit: cover;
+    height: auto; /* Asegura que la imagen se ajuste correctamente en móviles */
   }
+}
   
-  .main-historia::before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100px; /* Ajusta la altura según tus necesidades */
-    background-image: url('../assets/separador-img.jpg'); /* Cambia la ruta por la imagen que desees */
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 20px;
-  }
