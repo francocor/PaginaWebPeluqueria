@@ -3,13 +3,106 @@
     font-weight: auto;
     font-style: normal;
 }
-.P{    
 
-    text-align: left; 
-    font-family: Arial Black; 
-    font-weight: bold; 
-    font-size: 30px; 
-    color: #f48f9f; 
-    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-        
-}
+/* Estilo base para el contenedor */
+.product-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semi-transparente */
+  }
+  
+  /* Estilo de la imagen */
+  .product-image {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Estilo del contenido (título y descripción) */
+  .product-content {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  /* Estilo del título */
+  .product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo de la descripción */
+  .product-description {
+    font-size: 16px;
+    color: #555;
+  }
+
+  .designercolorimg, .vibrantcolorimg {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espacio entre las imágenes */
+  }
+  
+  .small-image {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .product-content {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Responsivo para móviles */
+  @media (max-width: 768px) {
+    .designercolorimg, .vibrantcolorimg {
+      flex-direction: column;
+    }
+  
+    .small-image {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Media queries para dispositivos móviles */
+  @media (max-width: 768px) {
+    .product-card {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .product-image {
+      margin-bottom: 20px;
+    }
+  
+    .product-content {
+      margin-left: 0;
+      text-align: center;
+    }
+  }

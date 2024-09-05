@@ -27,13 +27,13 @@ const MainServicios = () => {
 
   return (
     <div className="Servicios">
-      <div className="TituloServicios" data-aos="fade-down">
+      {/*<div className="TituloServicios" data-aos="fade-down">
         <h1 className="S text-center my-4">Servicios</h1>
-      </div>
+      </div>*/}
 
       <div>
-        <MDBRow className="row-cols-1 row-cols-md-3 g-4">
-          <MDBCol>
+        <MDBRow className="row-cols-1 row-cols-md-3 g-4" >
+          <MDBCol >
             <MDBCard className="h-100" data-aos="flip-left">
               <MDBCardImage
                 src={TratamientoCapilar}
