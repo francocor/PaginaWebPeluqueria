@@ -4,7 +4,9 @@ import MainServicios from './pages/MainServicios';
 import MainProductos from "./pages/MainProductos"
 /*import MainCursos from "./pages/MainCursos"*/
 import MainTurnos from './pages/MainTurnos';
-import ProductoLineaCurls from "./pages/ProductoLineaCurls"
+import ProductosLineaCurls from "./pages/ProductosLineaCurls"
+import ProductosLineaOmni from "./pages/ProductosLineaOmni"
+import ProductosLineaNourishing from "./pages/ProductosLineaNourishin"
 
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
         <Route path="/MainProductos" element={<MainProductos />} />
         {/*<Route path="/MainCursos" element={<MainCursos />} />*/}
         <Route path="/MainTurnos" element={<MainTurnos />} />
-        <Route path="/ProductoLineaCurls" element={<ProductoLineaCurls />} />
+        <Route path="/ProductosLineaCurls" element={<ProductosLineaCurls />} />
+        <Route path="/ProductosLineaOmni" element={<ProductosLineaOmni />} />
+        <Route path="/ProductosLineaNourishing" element={<ProductosLineaNourishing />} />
       </Routes>
 
   );

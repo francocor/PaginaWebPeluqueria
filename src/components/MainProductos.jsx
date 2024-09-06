@@ -16,7 +16,7 @@ import VibrantGallery1 from "../assets/vibrant-gallery1.png"
 import VibrantColorsProduct from "../assets/vibrant-colors-product.png"
 import VibrantGallery2 from "../assets/vibrant-gallery2.png"
 
-import { Link } from "react-router-dom";
+
 
 const MainProductos = () => {
   useEffect(() => {
@@ -34,7 +34,7 @@ const MainProductos = () => {
                 <p className="product-description">
                     Aporta hidratación intensa, excelente suavidad evitando el encrespamiento y logrando gran definición y control dando como resultado rizos más luminosos y definidos. <br />
                     REFLEJA NUESTRA PASIÓN POR EL CABELLO ONDULADO Y RIZADO <br />
-                    <Link href="">Mas info </Link>
+                    <a href="/ProductosLineaCurls">Mas info </a>
                 </p>
             </div>
         </div>
@@ -45,7 +45,7 @@ const MainProductos = () => {
                 <p className="product-description">
                     Para cabello que está expuesto a procesos químicos, abuso de elementos para peinar y a la exposición a los radicales libres que dañan el cabello y hacen que no brille igual. <br />
                     PROTEGE, RESTAURA EL DAÑO Y PROLONGA LA DURACIÓN DEL COLOR <br />
-                    <Link href="">Mas info </Link>
+                    <a href="/ProductosLineaOmni">Mas info </a>
                 </p>
             </div>
             <img src={OmniRestoreFamilia} alt="Sample" className="product-image" />
@@ -59,7 +59,7 @@ const MainProductos = () => {
                     Nutrición, sedosidad, brillo, cuidado del color, con resultados visibles desde la primera aplicación.
                     Cabello nutrido, suave y brillante, con resultados rápidos. <br />
                     CABELLO NUTRIDO, SUAVE Y BRILLANTE CON RESULTADOS RÁPIDOS <br />
-                    <Link href="">Mas info </Link>
+                    <a href="/ProductosLineaNourishing">Mas info </a>
                 </p>
             </div>
         </div>
@@ -111,11 +111,9 @@ const MainProductos = () => {
 
             <div className="product-content">
                 <h3 className="product-title">Designer Color</h3>
-                <p className="product-description">Nueva fórmula con aroma más suave y una consistencia más cremosa que 
-                    facilita la aplicación y mejora el rendimiento. Tecnología de nueva generación, OMEGACOLOR enriquecido con 
-                    ácidos grasos Omega 6 y 9, que protegen, acondicionan e hidratan el cabello. Contiene un exclusivo cóctel de 
-                    aminoácidos de Arginina, Lisina y Serina, que promueven la elasticidad, reparan puntas abiertas y recuperan el 
-                    brillo. Adicionado con vitamina C como agente antioxidante. <br />
+                <p className="product-description">Nueva fórmula con aroma suave y consistencia cremosa para una mejor 
+                    aplicación y rendimiento. Enriquecida con OMEGACOLOR, Omega 6 y 9, que protegen e hidratan el cabello. 
+                    Incluye aminoácidos que mejoran la elasticidad y reparan puntas abiertas, además de vitamina C como antioxidante. <br />
                     <a href="https://www.tecitaly.com.ar/coloracion/designer-color.html" target="_blank">Mas info </a>
                 </p>
             </div>
