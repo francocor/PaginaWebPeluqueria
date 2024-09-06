@@ -6,30 +6,26 @@ import "aos/dist/aos.css"
 import { useEffect } from 'react';
 
 const MainHistoria = () => {
-  useEffect(()=>{
+  useEffect(() => {
     Aos.init();
-  },[])
-
-  
-
+  }, []);
 
   return (
     <div className="main-historia">
       <Container>
         <Row className="align-items-center">
           <Col md={6} className="historia-content">
-            <div className="historia-text" data-aos="fade-right">
-              <h2 className='tituloHistoria'>Mi Historia</h2>
-              <span className='textoHistoria'>
+            <div className="historia-text bg-semi-transparente" data-aos="fade-right">
+              <h2 className="tituloHistoria">Mi Historia</h2>
+              <span className="textoHistoria">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus doloribus quaerat placeat quam
-                 repellendus dolor beatae at ex obcaecati dolores ipsam quo iure molestias, omnis cupiditate sit quisquam, molestiae ab?
+                repellendus dolor beatae at ex obcaecati dolores ipsam quo iure molestias, omnis cupiditate sit quisquam, molestiae ab?
               </span>
             </div>
           </Col>
           <Col md={6} className="historia-content">
-            <div className="historia-img" data-aos="fade-left">
-              <img src={historiaImg} alt="" className="img-fluid" />
-              <img src={historiaImg} alt="" className="img-fluid" />
+            <div className="historia-img bg-semi-transparente" data-aos="fade-left">
+              <img src={historiaImg} alt="Historia" className="img-fluid" />
             </div>
           </Col>
         </Row>

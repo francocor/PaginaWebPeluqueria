@@ -1,68 +1,54 @@
 .Promos {
-  text-align: left; 
-  font-family: Arial Black; 
-  font-weight: bold; 
-  font-size: 5vw; /* Ajusta el tamaño de la fuente en relación al ancho de la ventana */
-  color: #fff; 
+  text-align: left;
+  font-family: "Kanit", sans-serif;
+  color: #fff;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
 .promo-container {
-  padding: 20px 0;
+  padding: 40px 0;
   background-color: #f0c8be;
+}
+
+/* Ajuste de tamaño para ambos cards */
+.card-video, .card-text {
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
 }
 
 .video-responsive {
   width: 100%;
   height: auto;
-  max-height: 60vh; /* Aumenta la altura máxima para hacer que el video sea más grande */
-}
-
-.promo-video {
-  padding-right: 0; /* Elimina el padding para mayor flexibilidad en móviles */
-}
-
-.promo-text {
-  padding-left: 0; /* Elimina el padding para mayor flexibilidad en móviles */
-  margin-top: 20px; /* Añade espacio superior para separar el texto del video en móviles */
+  max-height: 500px; 
 }
 
 .promo-text h1 {
   font-family: "Kanit", sans-serif;
-  font-weight: normal;
-  text-decoration: dashed;
   color: #ff0000;
-  text-align: center; /* Centra el título en dispositivos móviles */
-  font-size: 6vw; /* Ajuste para que el título sea responsivo */
+  text-align: center;
+  font-size: 5vw;
 }
 
 .botonpromo {
   color: #f48f9f;
   text-decoration: none;
-  display: block;
-  text-align: center; /* Centra los botones de promoción */
-  margin: 10px 0; /* Espacio entre botones */
-  font-size: 4vw; /* Ajuste del tamaño del texto en los botones para ser responsivo */
+  text-align: center;
+  margin: 10px 0;
+  font-size: 4vw;
 }
 
 @media (min-width: 768px) {
-  .promo-video {
-    padding-right: 2rem; /* Padding solo para pantallas más grandes */
-  }
-
-  .promo-text {
-    padding-left: 2rem; /* Padding solo para pantallas más grandes */
-  }
-
-  .Promos {
-    font-size: 2rem; /* Tamaño de fuente fijo en pantallas más grandes */
+  .promo-video, .promo-text {
+    padding: 2rem;
   }
 
   .promo-text h1 {
-    font-size: 2.5rem; /* Tamaño de fuente fijo en pantallas más grandes */
+    font-size: 2.5rem;
   }
 
   .botonpromo {
-    font-size: 1.5rem; /* Tamaño de fuente fijo en pantallas más grandes */
+    font-size: 1.5rem;
   }
 }

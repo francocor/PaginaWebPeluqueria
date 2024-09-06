@@ -1,58 +1,81 @@
-.Servicios{
+.servicios-container {
+  padding: 20px;
   font-family: "Kanit", sans-serif;
   font-weight: auto;
   font-style: normal;
 }
 
-.S {
-  text-align: left;
-  font-family: "Kanit", sans-serif;
-  font-weight: auto;
-  font-style: normal;
-  color: #f48f9f;
-  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+/* Grid de cards */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
 }
 
-/* Estilo general para imágenes */
-.MDBCardImage {
-  object-fit: cover;
-  height: 200px; 
+/* Card */
+.card {
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-/* Estilo general para las cards */
-.MDBCard {
-  height: 100%;
-  
-
+.card:hover {
+  transform: translateY(-10px);
 }
 
-.card-body{
-  background-color: #f2c0bc;
-  border: none;
+/* Contenedor de la imagen */
+.card-img-container {
+  width: 100%;
+  aspect-ratio: 16 / 9; 
+  overflow: hidden;
 }
 
-.card{
-  border: none;
+/* Imagen de la card */
+.card-img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain; 
+  border-radius: 10px;
 }
 
+/* Contenido de la card */
+.card-content {
+  padding: 15px;
+  text-align: center;
+}
 
+/* Título */
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
 
-/* Media query para tabletas */
+/* Texto */
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsividad */
 @media (max-width: 768px) {
+  .card-title {
+    font-size: 1.3rem;
+  }
   
-
-  .MDBCardText {
-    font-size: 1.2rem; /* Aumenta el tamaño del texto para tabletas */
+  .card-text {
+    font-size: 0.9rem;
   }
 }
 
-/* Media query para móviles */
 @media (max-width: 576px) {
-  
+  .card-title {
+    font-size: 1.2rem;
+  }
 
-  .MDBCardText {
-    font-size: 1rem; /* Aumenta el tamaño del texto para móviles */
+  .card-text {
+    font-size: 0.85rem;
   }
 }
-  
-
