@@ -70,7 +70,7 @@ const MainServicios = () => {
             </div>
             <div className="card-content">
               <h3 className="card-title">{servicio.titulo}</h3>
-              <p className="card-text">{servicio.texto}</p>
+              <p className="card-textt">{servicio.texto}</p>
             </div>
           </div>
         ))}

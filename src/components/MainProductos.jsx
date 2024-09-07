@@ -30,7 +30,7 @@ const MainProductos = () => {
         <div className="product-card" data-aos="flip-left">
             <img src={CurlsFamilia} alt="Sample" className="product-image" />
             <div className="product-content">
-                <h3 className="product-title">Línea Curls</h3>
+                <h3 className="product-title" style={{ color: "#589923" }}>Línea Curls</h3>    
                 <p className="product-description">
                     Aporta hidratación intensa, excelente suavidad evitando el encrespamiento y logrando gran definición y control dando como resultado rizos más luminosos y definidos. <br />
                     REFLEJA NUESTRA PASIÓN POR EL CABELLO ONDULADO Y RIZADO <br />
@@ -41,7 +41,7 @@ const MainProductos = () => {
 
         <div className="product-card" data-aos="flip-right">           
             <div className="product-content">
-                <h3 className="product-title">Línea Omni Restore</h3>
+            <h3 className="product-title" style={{ color: "#8eb0de" }}>Línea Omni Restore</h3>
                 <p className="product-description">
                     Para cabello que está expuesto a procesos químicos, abuso de elementos para peinar y a la exposición a los radicales libres que dañan el cabello y hacen que no brille igual. <br />
                     PROTEGE, RESTAURA EL DAÑO Y PROLONGA LA DURACIÓN DEL COLOR <br />
@@ -54,7 +54,7 @@ const MainProductos = () => {
         <div className="product-card" data-aos="flip-left">
             <img src={FamiliaNourishingOils} alt="Sample" className="product-image" />
             <div className="product-content">
-                <h3 className="product-title">Línea Nourishing Oil</h3>
+                <h3 className="product-title" style={{ color: "#c9574c" }}>Línea Nourishing Oil</h3>
                 <p className="product-description">
                     Nutrición, sedosidad, brillo, cuidado del color, con resultados visibles desde la primera aplicación.
                     Cabello nutrido, suave y brillante, con resultados rápidos. <br />
@@ -63,10 +63,10 @@ const MainProductos = () => {
                 </p>
             </div>
         </div>
-
-        <div className="product-card" data-aos="flip-right">          
+ 
+        <div className="product-card" data-aos="flip-right">             
             <div className="product-content">
-                <h3 className="product-title">Due Faccetta Massimo</h3>
+                <h3 className="product-title" style={{ color: "#52b3e7" }}>Due Faccetta Massimo</h3>
                 <p className="product-description">
                     Acondiciona y ayuda a reparar el cabello decolorado o sobreprocesado. Regula la porosidad del cabello. <br />
                     Para personas con cabello decolorado o sobreprocesado. <br />
@@ -79,7 +79,7 @@ const MainProductos = () => {
         <div className="product-card" data-aos="flip-left">    
         <img src={DueFaccetaLungaDurata} alt="Sample" className="product-image" />       
             <div className="product-content">
-                <h3 className="product-title">Due Faccetta Lunga Durata</h3>
+                <h3 className="product-title" style={{ color: "#fcb862" }}>Due Faccetta Lunga Durata</h3>     
                 <p className="product-description">
                     Hidrata y acondiciona el cabello teñido. Evita la pérdida prematura del color. Facilita el desenredo y mejora la manejabilidad. <br />
                     Para personas con el cabello teñido. <br />
@@ -90,7 +90,7 @@ const MainProductos = () => {
 
         <div className="product-card" data-aos="flip-right">           
             <div className="product-content">
-                <h3 className="product-title">Due Faccetta Giorno Per Giorno</h3>
+                <h3 className="product-title" style={{ color: "#73d0c5" }}>Due Faccetta Giorno Per Giorno</h3>   
                 <p className="product-description">
                     Ayuda a recuperar la humectación del cabello. Devuelve la suavidad y manejabilidad con resultados visibles. <br />
                     Para personas con cabello normal o seco. <br />
@@ -110,7 +110,7 @@ const MainProductos = () => {
             </div>
 
             <div className="product-content">
-                <h3 className="product-title">Designer Color</h3>
+                <h3 className="product-title" style={{ color: "#e16d0d" }}>Designer Color</h3>    
                 <p className="product-description">Nueva fórmula con aroma suave y consistencia cremosa para una mejor 
                     aplicación y rendimiento. Enriquecida con OMEGACOLOR, Omega 6 y 9, que protegen e hidratan el cabello. 
                     Incluye aminoácidos que mejoran la elasticidad y reparan puntas abiertas, además de vitamina C como antioxidante. <br />
@@ -125,7 +125,7 @@ const MainProductos = () => {
         <div className="product-card" data-aos="flip-right">
 
             <div className="product-content">
-                <h3 className="product-title">Vibrant Colors</h3>
+                <h3 className="product-title" style={{ color: "#815ab4" }}>Vibrant Colors</h3>   
                 <p className="product-description">Nueva coloración semipermanente con una paleta de colores de 
                     fantasía ideal para combinar, maximizando la creatividad del colorista, que logrará una inmensa 
                     gama multicolor: Intensos, vibrantes, pasteles, suaves, profundos u oscuros, ideales para la máxima 

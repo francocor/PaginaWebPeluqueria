@@ -19,7 +19,7 @@ const ProductoLineaOmni = () => {
         <div className="product-card" data-aos="flip-left">
             <img src={OmniRestoreShampoo} alt="Sample" className="product-image" />
             <div className="product-content">
-                <h3 className="product-title">Omni Restore Shampoo</h3>
+                <h3 className="product-title" style={{ color: "#8eb0de" }}>Omni Restore Shampoo</h3>
                 <p className="product-description">
                 Limpia, protege y comienza el proceso de mantenimiento y restauración para el cabello. <br />
                 Para personas con todo tipo de cabello. <br />
@@ -30,7 +30,7 @@ const ProductoLineaOmni = () => {
 
         <div className="product-card" data-aos="flip-left">
             <div className="product-content">
-                <h3 className="product-title">Omni Restore Conditioner</h3>
+                <h3 className="product-title" style={{ color: "#8eb0de" }}>Omni Restore Conditioner</h3>
                 <p className="product-description">
                 Protege y promueve la resistencia y restauración para el cabello. <br />
                 Para personas con todo tipo de cabello. <br />
@@ -43,7 +43,7 @@ const ProductoLineaOmni = () => {
         <div className="product-card" data-aos="flip-left">
             <img src={OmniRestoreTreatment} alt="Sample" className="product-image" />
             <div className="product-content">
-                <h3 className="product-title">Omni Restore Treatment</h3>
+                <h3 className="product-title" style={{ color: "#8eb0de" }}>Omni Restore Treatment</h3>
                 <p className="product-description">
                 Recupera el brillo y la sedosidad, acondiciona, reduce la estática, promueve la hidratación. <br />
                 Para personas con todo tipo de cabello. <br />
@@ -54,7 +54,7 @@ const ProductoLineaOmni = () => {
 
         <div className="product-card" data-aos="flip-left">
             <div className="product-content">
-                <h3 className="product-title">Omni Restore Protector</h3>
+                <h3 className="product-title" style={{ color: "#8eb0de" }}>Omni Restore Protector</h3>
                 <p className="product-description">
                 Reduce la estática, facilita el peinado, acondiciona y ayuda a resistir los procesos de peinado. <br />
                 Para personas con cabello procesado. <br />

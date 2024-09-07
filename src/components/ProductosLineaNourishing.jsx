@@ -18,10 +18,10 @@ const ProductosLineaNourishing = () => {
   return (
     <div className="Productos">
 
-    <div className="product-card" data-aos="flip-left">
+    <div className="product-card" data-aos="flip-left">  
             <img src={EssentialOilShampoo} alt="Sample" className="product-image" />
             <div className="product-content">
-                <h3 className="product-title">Essential Oil Shampoo</h3>
+                <h3 className="product-title" style={{ color: "#c9574c" }}>Essential Oil Shampoo</h3>
                 <p className="product-description">
                 Proporciona una limpieza suave y nutrición. <br />
                 Para personas con todo tipo de cabello. <br />
@@ -32,7 +32,7 @@ const ProductosLineaNourishing = () => {
 
         <div className="product-card" data-aos="flip-left">
             <div className="product-content">
-                <h3 className="product-title">Essential Oil Conditioner</h3>
+                <h3 className="product-title" style={{ color: "#c9574c" }}>Essential Oil Conditioner</h3>
                 <p className="product-description">
                 Proporciona acondicionamiento suave y nutrición al cabello. <br />
                 Para personas con cabello sobreprocesado. <br />
@@ -45,7 +45,7 @@ const ProductosLineaNourishing = () => {
         <div className="product-card" data-aos="flip-left">
             <img src={EssentialOilMask} alt="Sample" className="product-image" />
             <div className="product-content">
-                <h3 className="product-title">Essential Oil Mask</h3>
+                <h3 className="product-title" style={{ color: "#c9574c" }}>Essential Oil Mask</h3>
                 <p className="product-description">
                 Mejora la peinabilidad y desenredo además de contribuir a proveer una mayor luminosidad en el cabello. <br />
                 Para personas con todo tipo de cabello. <br />
@@ -56,7 +56,7 @@ const ProductosLineaNourishing = () => {
 
         <div className="product-card" data-aos="flip-left">
             <div className="product-content">
-                <h3 className="product-title">Essential Oil Treatment</h3>
+                <h3 className="product-title" style={{ color: "#c9574c" }}>Essential Oil Treatment</h3>
                 <p className="product-description">
                 Proporciona suavidad y nutre el cabello sin dejar residuos y con sensación ligera. Minimiza puntas abiertas y es ideal para estilizar con herramientas de calor. <br />
                 Para personas con cabello sobreprocesado. <br />
