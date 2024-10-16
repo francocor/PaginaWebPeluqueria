@@ -3,7 +3,10 @@
     font-family: "Pacifico", system-ui;
     font-weight: 400;
     font-style: normal;
-    
+    background-image: url("../assets/FondoHeader.png");
+    background-size: cover;
+    width: 100%;
+    height: auto;
   }
   
   .navbar-brand {
@@ -33,7 +36,7 @@
   }
   
   .nav-link:hover {
-    color: #f2c0bc;  
+    color: #000000;  
   }
   
   .nav-link::after {
@@ -43,7 +46,7 @@
     height: 2px;
     bottom: 0;
     left: 50%; 
-    background-color: #f2c0bc; 
+    background-color: #000000; 
     transition: all 0.3s ease-in-out;
     transform: translateX(-50%); /* Centra el punto inicial */
     visibility: hidden; 

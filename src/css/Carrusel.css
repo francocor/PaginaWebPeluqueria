@@ -1,5 +1,5 @@
 body {
-  background-color: #f2c0bc;
+  background-color: #ffffff;
 }
 
 .carrusel {
@@ -8,11 +8,11 @@ body {
   align-items: center;
   margin: 0 auto;
   overflow: hidden;
-  border: 5px solid white;
+  border: 5px solid rgb(224, 223, 223);
   border-radius: 5px;
-  width: auto; /* Permite que el tamaño del contenedor se ajuste al contenido */
-  max-width: 100%;
-  height: auto; /* Ajusta la altura al contenido */
+  width: 80%; 
+  
+  height: auto; 
 }
 
 .carrusel video {

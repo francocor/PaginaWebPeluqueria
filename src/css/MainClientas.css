@@ -1,15 +1,15 @@
 
 .main-clientas-container {
   padding: 20px 0;
-  background-color: #f0c8be;
+  background-color: #8f8f8f00;
 }
 
 .TituloClientas {
   margin-bottom: 20px;
-  font-family: Arial Black; 
+  font-family: Arial ; 
   font-weight: bold; 
   font-size: 30px; 
-  color: #f48f9f; 
+  color: #000000; 
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 

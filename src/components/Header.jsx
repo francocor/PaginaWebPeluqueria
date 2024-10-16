@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <div className="header" >
-      <Navbar expand="lg" style={{ backgroundColor: '#f48f9f' }}>
+      <Navbar expand="lg" >
         <Container>
           <Navbar.Brand >
             <img

@@ -2,12 +2,12 @@
   text-align: left;
   font-family: "Kanit", sans-serif;
   color: #fff;
-  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  /* text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;*/
 }
 
 .promo-container {
   padding: 40px 0;
-  background-color: #f0c8be;
+  background-color: #eeee;
 }
 
 /* Ajuste de tamaño para ambos cards */
@@ -32,7 +32,7 @@
 }
 
 .botonpromo {
-  color: #f48f9f;
+  color: #000000;
   text-decoration: none;
   text-align: center;
   margin: 10px 0;

@@ -28,8 +28,8 @@ const [horariosDisponibles, setHorariosDisponibles] = useState([])
 useEffect(()=>{
   const horarios = []
   const startHour = 9
-  const endHour = 21
-  const interval = 2
+  const endHour = 18
+  const interval = 1
 
   for(let hour = startHour; hour <= endHour; hour += interval){
     horarios.push(`${hour.toString().padStart(2, "0")}:00`)
@@ -66,7 +66,7 @@ const handleSubmit = (e)=>{
   console.log("mensaje", mensaje)
   window.alert("Tu turno se asigno correctamente");
 
-  const url = `https://wa.me/+5493816348569?text=${encodeURIComponent(mensaje)}`;
+  const url = `https://wa.me/+5493815151747?text=${encodeURIComponent(mensaje)}`;
   console.log("URL de WhatsApp:", url);
 
   setTimeout(()=>{
@@ -108,7 +108,7 @@ const handleSubmit = (e)=>{
             </p>
             <p>
               2 - Una vez realizada la seña, mandar captura al{" "}
-              <a href="https://wa.me/3816223344" target="_blank">WhatsApp</a>.
+              <a href="https://wa.me/3815151747" target="_blank">WhatsApp</a>.
             </p>
             <p>
               3 - Una vez finalizado el paso anterior, ya podes llenar el
@@ -221,7 +221,7 @@ const handleSubmit = (e)=>{
                 <textarea
                   id="servicios"
                   className="form-control"
-                  placeholder="Servicios"
+                  placeholder="Color, Mechas, Balayage, ..."
                   rows="4"
                   value={formData.servicios}
                   onChange={handleChange}

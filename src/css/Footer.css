@@ -2,7 +2,7 @@
 .Footer {
     padding: 2rem 0;
     margin-top: 10rem; 
-    background-color: #efe9d1;
+    background-color: #aaaaaa;
     font-family: "Pacifico", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -13,14 +13,14 @@
     font-family: cursive;
     letter-spacing: 2px;
     padding: 0.5rem 0;
-    color: #f15e82;
+    color: #000000;
     font-family: "Pacifico", system-ui;
     font-weight: 400;
     font-style: normal;
 }
 
 .ft-1 span {
-    color: #f3a8ac;
+    color: #000000;
     font-family: "Pacifico", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -35,17 +35,17 @@
 }
 
 .footer-icons a {
-    color: #f15e82; 
+    color: #000000; 
     transition: color 0.3s;
   }
   
   .footer-icons a:hover {
-    color: #f3a8ac; 
+    color: #000000; 
   }
 
 
 .Footer h5 {
-    color: #f15e82;
+    color: #000000;
     margin-bottom: 2rem; 
     font-family: "Pacifico", system-ui;
     font-weight: 400;
@@ -82,7 +82,7 @@
     height: 60px;
     bottom: 40px;
     right: 40px;
-    background-color: #f15e82;
+    background-color: #25D366;
     color: #fff;
     border-radius: 50px;
     text-align: center;
@@ -95,7 +95,7 @@
   }
   
   .whatsapp-float:hover {
-    background-color: #128c7e;
+    background-color: #25D366;
     cursor: pointer;
   }
   
