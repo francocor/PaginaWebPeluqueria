@@ -5,7 +5,7 @@ import { useEffect } from "react"
 import EssentialOilShampoo from "../assets/essential-oil-shampoo.png"
 import EssentialOilConditioner from "../assets/essential-oil-conditioner.png"
 import EssentialOilMask from "../assets/essential-oil-mask.png"
-import EssentialOilTreatment from "../assets/essential-oil-Treatment.png"
+import EssentialOilTreatment from "../assets/essential-oil-treatment.png"
 
 
 
