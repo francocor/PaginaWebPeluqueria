@@ -82,14 +82,7 @@ const handleSubmit = (e)=>{
     hora: "", 
     servicios:""
   })
-
-  
 }
-
-
-
-
-
   return (
     <div className="MainTurnos">
 
@@ -101,10 +94,8 @@ const handleSubmit = (e)=>{
             <h1 className="tituloTurnos">Sistema de Turnos</h1>
             <p>
               1 - Para solicitar un turno primero deben realizar una seña de
-              $5000 pesos, haciendo click <a href="https://www.mercadopago.com.ar/paid?CODE=V1C70X&utm_source=google&utm_medium=cpc&utm_campaign=MLA_MP_G_AO_ALL_BRD_SEARCH_MP_EXACT&matt_tool=28766038&matt_word=MLA_MP_Sellers_AO_X_G_Search_X_BrandKW_X&gad_source=1&gclid=CjwKCAjwiaa2BhAiEiwAQBgyHqTmsXem-W2HCa0DveUX5AkWV1yMylsE6pcaH0HILi6bBhlLrDLlahoCBFAQAvD_BwE" target="_blank">
-                Aquí
-              </a> los llevará a
-              Mercado Pago para realizar la seña.
+              $5000 pesos, a la cuenta de naranja x con el alias ´ MMEDINA5819.NX.ARS ´ , la cual tiene que estar al nombre de
+              Maria Eugenia Medina, en el caso de que el nombre no coincida, comunicarse via WhatsApp.
             </p>
             <p>
               2 - Una vez realizada la seña, mandar captura al{" "}
@@ -182,7 +173,7 @@ const handleSubmit = (e)=>{
               <div className="row mb-3">
                 <div className="col-md-6 mb-3 mb-md-0">
                   <label htmlFor="fecha" className="form-label">
-                    Fecha
+                    Fecha del turno
                   </label>
                   <input type="date" 
                   className="form-control" 
@@ -195,7 +186,7 @@ const handleSubmit = (e)=>{
 
                 <div className="col-md-6">
                   <label htmlFor="hora" className="form-label">
-                    Hora
+                    Hora el turno
                   </label>
                 <select
                   id="hora"
