@@ -10,7 +10,7 @@ body {
   overflow: hidden;
   border: 5px solid rgb(224, 223, 223);
   border-radius: 5px;
-  width: 80%; 
+  width: 50%; 
   
   height: auto; 
 }
@@ -21,3 +21,10 @@ body {
   object-fit: cover;
 }
 
+@media (max-width: 768px) {
+  .carrusel {
+    width: 100%; /* Ocupa todo el ancho */
+    font-size: 0.8rem; /* Tamaño de texto reducido */
+  }
+  
+}

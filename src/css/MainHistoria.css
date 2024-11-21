@@ -24,12 +24,7 @@
 
 .tituloHistoria{
   color: #000000;
-  background: url("../assets/FondoHeader.png");
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  background-position: center;
-  background-size: cover;
-  -webkit-text-stroke: 1px;
+
 }
 
 .historia-text {
